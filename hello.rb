@@ -61,9 +61,11 @@ def untilUse
 end
 
 
-i=9
-while i>0
-  puts i
-  i=i-1
-  redo if i==3
+def redoExample
+  i=9
+  while i>0
+    puts i
+    i=i-1
+    redo if i==3
+  end
 end
